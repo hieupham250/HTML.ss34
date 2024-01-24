@@ -5,4 +5,5 @@ btn.onclick = function () {
     let text = document.createElement("li");
     text.innerHTML = document.getElementById("input").value;
     document.getElementById("list").appendChild(text);
+    document.getElementById("input").value = "";
 }
